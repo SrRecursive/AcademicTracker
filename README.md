@@ -12,6 +12,12 @@ Academic Tracker is a simple program that allows you to manage multiple user gra
 - Show grades
 - Show average
 
+## Requirements
+
+- Git
+- Make
+- CPP Compiler (g++)
+
 ## Usage
 
 Clone the repository
