@@ -4,33 +4,33 @@
 ifneq ($(OS), Windows_NT)
 
 # <-- Text Color --> #
-	T_BLACK = "\033[30m"
-	T_RED = "\033[31m"
-	T_GREEN = "\033[32m"
-	T_YELLOW = "\033[33m"
-	T_BLUE = "\033[34m"
-	T_MAGENTA = "\033[35m"
-	T_CYAN = "\033[36m2
-	T_WHITE = "\033[37m"
+	T_BLACK = "\\033[30m"
+	T_RED = "\\033[31m"
+	T_GREEN = "\\033[32m"
+	T_YELLOW = "\\033[33m"
+	T_BLUE = "\\033[34m"
+	T_MAGENTA = "\\033[35m"
+	T_CYAN = "\\033[36m2
+	T_WHITE = "\\033[37m"
 
 # <-- Text Style --> #
-	BOLD = "\033[1m"
-	ITALIC = "\033[2m"
-	UNDERLINE = "\033[3m"
-	STRIKETHROUGH = "\033[4m"
+	BOLD = "\\033[1m"
+	ITALIC = "\\033[2m"
+	UNDERLINE = "\\033[3m"
+	STRIKETHROUGH = "\\033[4m"
 
 # <-- Background Color --> #
-	B_RED = "\033[31m"
-	B_BLACK = "\033[30m"
-	B_GREEN = "\033[32m"
-	B_YELLOW = "\033[33m"
-	B_BLUE = "\033[34m"
-	B_MAGENTA = "\033[35m"
-	B_CYAN = "\033[36m"
-	B_WHITE = "\033[37m"
+	B_RED = "\\033[31m"
+	B_BLACK = "\\033[30m"
+	B_GREEN = "\\033[32m"
+	B_YELLOW = "\\033[33m"
+	B_BLUE = "\\033[34m"
+	B_MAGENTA = "\\033[35m"
+	B_CYAN = "\\033[36m"
+	B_WHITE = "\\033[37m"
 
 # <-- Reset Everything --> #
-	RESET = "\033[0m"
+	RESET = "\\033[0m"
 endif
 # ========================================================================== #
 
